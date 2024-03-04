@@ -1,0 +1,248 @@
+.bgimage{
+    position:relative;
+    width:100%;
+}
+.fgimage{
+    position:absolute;
+    left: 45px;
+    bottom: -10px;
+}
+.image{
+    position:relative;
+}
+.icon
+{
+    background-color:blue;
+    position:absolute;
+    bottom:40px;
+    right: 90px;
+    border-color:blue;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+
+.nam{
+    display:inline-block;
+    margin:1px;
+    padding: 25px;
+    margin-left:20px;
+}
+.place{
+    display:inline-block;
+    margin:1px;
+    padding: 25px;
+}
+.napl{
+    display:inline-block;
+}
+.role{
+    display:inline-block;
+    position:absolute;
+    top:-30px;
+    left:50px
+}
+/* .picon{
+    display:inline-block;
+    position:absolute;
+    right:40px;
+    bottom:20px
+
+} */
+/* 
+.roic{
+    position:relative;
+    
+} */
+
+  li{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-color:whitesmoke;
+    border-style: solid;
+    margin:10px;
+  }
+   .dis{
+    display:flex;
+    position:relative;
+  }
+.form{
+    display:inline;
+    position:relative;
+    left:100px
+    
+}
+
+.updateprof{
+    display:inline-block;
+    position:relative;
+
+    
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.upd{
+    position:relative;
+    left:90px;
+    padding:20px;
+    bottom:5px
+}
+.picon{
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:10px 25px;
+   gap: 5px;
+   
+   
+}
+
+.locate{
+    margin-right: 10px;
+}
+.updpho{
+    position:absolute;
+    left:20px;
+    bottom:70px;
+    display:flex;
+    flex-wrap: wrap;
+    width:100px
+
+}
+.upddel{
+    position: absolute;
+    left: 150px;
+    bottom:70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+input,textarea{
+    background: #fff;
+    border: 1px solid #e0e6f6;
+    height: 53px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+    width: 250%;
+
+}
+textarea{
+    line-height: 50px;
+}
+
+
+
+
+.hort{
+    width:250%;
+}
+
+.lbl-checkbox{
+    width:20px;
+}
+.free{
+    margin:0px;
+}
+
+.sidebar{
+    padding:15px;
+    background: white;
+    color:black
+
+}
+.sideimage{
+    margin:3px;
+    float:left;
+    width: 20px;
+    height: 15px;
+}
+button,a{
+    cursor: pointer;
+    background-color: #3c65f5;
+}
+.delete,.picon{
+    background: #3c65f5;
+    color: white;
+    border-color: #fff;
+    border: width 0px;
+    font-size: 19px;
+}
+.updpho{
+    background: #3c65f5;
+    color: white;
+    border-color: #fff;
+    border: width 0px;
+    font-size: 19px;
+    width:170px;
+    margin-right: 50px;
+    display: inline-block;
+    position: relative;
+}
+.upddel{
+    background: #3c65f5;
+    color: white;
+    border-color: #fff;
+    border: width 0px;
+    font-size: 19px;
+    width:70px;
+    margin: left 30px;
+    position:relative;
+    bottom:97px;
+    left:240px;
+    text-align: center;
+    float: middle;
+}
+.submit {
+    background-color: #3c65f5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contactinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+}
+.file{
+    width:auto;
+}
+
+table input[type='file'] {
+    margin-bottom: 10px;
+  }
+  .contactinfo input[type="file"] {
+    width: 80%;
+  }
+  input[type="text"], input[type="file"] {
+    border: none;
+  }
+  .up{
+    background: blue;
+    color: #fff;
+  }
+  .deel{
+    background: blue;
+    color: #fff;
+  }
+  .subm{
+    position: relative;
+    bottom: 35px;
+    left:10px;
+  }
+  .form{
+    display: flex;
+    justify-content: space-around;
+  }
+  .major{
+    margin-left:47px;
+    margin-top: 0px;
+    padding:0px;
+}
